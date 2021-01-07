@@ -1,0 +1,26 @@
+[library]
+[library.GridMet]
+language = "python"
+library = "gridmet_bmi"
+header = ""
+entry_point = "BmiGridmet"
+
+[build]
+undef_macros = []
+define_macros = []
+libraries = []
+library_dirs = []
+include_dirs = []
+extra_compile_args = []
+
+[package]
+name = "pymt_gridmet"
+requirements = []
+
+[info]
+github_username = "rmcd-mscb"
+package_author = "Rich McDonald"
+package_author_email = "rmcd@usgs.gov"
+package_license = "CC0 1.0 Universal"
+summary = "PyMT component for accessing gridMET data"
+
