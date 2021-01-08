@@ -1,0 +1,7 @@
+summary: |
+  Data component for accessing gridMET ETL services.
+url: https://github.com/nhm-usgs/gridmet_bmi
+author: Rich McDonald
+email: rmcd@usgs.gov
+version: 0.1
+license: CC0 1.0 Universal

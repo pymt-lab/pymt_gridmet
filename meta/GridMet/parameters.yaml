@@ -1,0 +1,13 @@
+start_date:
+  description: Start date to retrieve data
+  value:
+    type: string
+    default: 2020-01-01
+    units: day
+
+end_date:
+  description: End date to retrieve data
+  value:
+    type: string
+    default: 2020-01-07
+    units: day
