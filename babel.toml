@@ -15,7 +15,7 @@ extra_compile_args = []
 
 [package]
 name = "pymt_gridmet"
-requirements = []
+requirements = ["gridmet-bmi"]
 
 [info]
 github_username = "rmcd-mscb"
