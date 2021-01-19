@@ -22,7 +22,7 @@ pymt_gridmet
         :alt: Code style: black
 
 
-PyMT component for accessing gridMET data
+PyMT component for fetching and caching `gridMET <http://www.climatologylab.org/gridmet.html>`_ meteorological data.
 
 
 * Free software: MIT License
@@ -34,7 +34,6 @@ PyMT component for accessing gridMET data
 ========= ===================================
 Component PyMT
 ========= ===================================
-
 GridMet   `from pymt.models import GridMet`
 ========= ===================================
 
