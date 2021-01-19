@@ -11,7 +11,7 @@ pymt_gridmet
         :target: https://anaconda.org/conda-forge/pymt_gridmet
 
 .. image:: https://img.shields.io/travis/pymt-lab/pymt_gridmet.svg
-        :target: https://travis-ci.org/pymt-lab/pymt_gridmet
+        :target: https://travis-ci.com/pymt-lab/pymt_gridmet
 
 .. image:: https://readthedocs.org/projects/pymt-gridmet/badge/?version=latest
         :target: https://pymt-gridmet.readthedocs.io/en/latest/?badge=latest
