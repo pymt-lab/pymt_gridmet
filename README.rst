@@ -10,8 +10,8 @@ pymt_gridmet
 .. image:: https://img.shields.io/badge/recipe-pymt_gridmet-green.svg
         :target: https://anaconda.org/conda-forge/pymt_gridmet
 
-.. image:: https://img.shields.io/travis/rmcd-mscb/pymt_gridmet.svg
-        :target: https://travis-ci.org/rmcd-mscb/pymt_gridmet
+.. image:: https://img.shields.io/travis/pymt-lab/pymt_gridmet.svg
+        :target: https://travis-ci.org/pymt-lab/pymt_gridmet
 
 .. image:: https://readthedocs.org/projects/pymt-gridmet/badge/?version=latest
         :target: https://pymt-gridmet.readthedocs.io/en/latest/?badge=latest
