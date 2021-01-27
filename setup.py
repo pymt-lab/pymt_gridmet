@@ -27,7 +27,7 @@ setup(
     author_email="rmcd@usgs.gov",
     description="PyMT plugin for pymt_gridmet",
     long_description=long_description,
-    version="0.1",
+    version="0.2.dev0",
     url="https://github.com/rmcd-mscb/pymt_gridmet",
     classifiers=[
         "Development Status :: 4 - Beta",
