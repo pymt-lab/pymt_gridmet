@@ -8,7 +8,7 @@ instance.
 
 Next, use the *setup* method to assign values to the ``start_date`` and
 ``end_date`` parameters.
-(Note that these parameter names aren't prefixed with an underscore,
+(Note that the parameter names aren't prefixed with an underscore
 like in the configuration file.)
 
 .. code:: ipython3
@@ -48,8 +48,7 @@ To make this example a little more interesting, let’s visualize the
 maximum temperature data.
 
 The *pymt_gridmet* component contains not only data values, but also the
-grid on which they’re located. Start by getting the identifier for the
-grid used for the maximum temperature data.
+grid on which they’re defined. Start by getting the identifier for this grid.
 
 .. code:: ipython3
 

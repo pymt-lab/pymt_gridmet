@@ -6,21 +6,22 @@ is a `Python Modeling Toolkit`_ (*pymt*) library
 for fetching and caching daily `gridMET`_ meteorological data.
 Variables include:
 
-* maximum temperature,
-* minimum temperature, and
+* maximum temperature
+* minimum temperature
 * precipitation accumulation
 
-The *pymt_gridmet* component provides `BMI`_-mediated access to gridMET data as a service.
+The *pymt_gridmet* component provides `BMI`_-mediated access to gridMET data as a service,
+allowing it to be coupled with other components that expose a BMI.
 
 
 Installation
 ------------
 
 *pymt*, and components that run within it,
-are available through `Anaconda`_ and the `conda`_ package manager.
+are distributed through `Anaconda`_ and the `conda`_ package manager.
 Instructions for `installing`_ Anaconda can be found on their website.
 In particular,
-*pymt* components are distributed through the `conda-forge`_ organization.
+*pymt* components are available through the `conda-forge`_ organization.
 
 Install the `pymt` and `pymt_gridmet` packages in a new environment with:
 
