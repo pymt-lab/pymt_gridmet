@@ -1,4 +1,4 @@
-Start by importing the GridMet class from ``pymt``.
+Start by importing the GridMet class from *pymt*.
 
 .. code:: ipython3
 
@@ -11,13 +11,6 @@ configuration file.
 
     m = GridMet()
     m.initialize("gridmet.yaml")
-
-
-.. parsed-literal::
-
-    gridmet.yaml
-    ...
-    
 
 
 Note that the start and end dates have been read from the configuration
@@ -58,7 +51,7 @@ Get the maximum temperature values for the first day.
     Tmax_values = Tmax.data
 
 What is the maximum maximum temperature? (Note that the data include NaN
-values, which we can ignore with ``numpy.nanmax``.)
+values, which we can filter with ``numpy.nanmax``.)
 
 .. code:: ipython3
 
@@ -90,7 +83,7 @@ But what are the units of this temperature value?
 
 
 
-Finish by finalizing the component. This cleans up resource, including
+Finish by finalizing the component. This cleans up resources, including
 deleting downloaded data files.
 
 .. code:: ipython3

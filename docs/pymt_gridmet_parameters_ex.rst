@@ -1,4 +1,4 @@
-Start by importing the GridMet class from ``pymt`` and creating an
+Start by importing the GridMet class from *pymt* and creating an
 instance.
 
 .. code:: ipython3
@@ -8,6 +8,8 @@ instance.
 
 Next, use the *setup* method to assign values to the ``start_date`` and
 ``end_date`` parameters.
+(Note that these parameter names aren't prefixed with an underscore,
+like in the configuration file.)
 
 .. code:: ipython3
 
@@ -18,13 +20,6 @@ Pass the results from *setup* into the *initialize* method.
 .. code:: ipython3
 
     m.initialize(*args)
-
-
-.. parsed-literal::
-
-    gridmet.yaml
-    ...
-    
 
 
 Note that the parameters have been correctly assigned in the component.
@@ -68,6 +63,7 @@ node spacing.
     shape = m.grid_shape(gid)
     origin = m.grid_origin(gid)
     spacing = m.grid_spacing(gid)
+
     print("shape:", shape)
     print("origin:", origin)
     print("spacing:", spacing)
@@ -129,15 +125,6 @@ Make a simple filled contour plot of the data with a colorbar.
     
     plt.contourf(lon, lat, Tmax_values_2D, 15)
     plt.colorbar(label="Maximum Temperature (K)")
-
-
-
-
-.. parsed-literal::
-
-    <matplotlib.colorbar.Colorbar at 0x1a44d5a00>
-
-
 
 
 .. image:: _static/daily-max-temp.png

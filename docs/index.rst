@@ -1,13 +1,8 @@
-.. todo:
-   - Add our CSS
-   - Add our sidebar
-   - Remove unused files
-   - Deploy to readthedocs.io
+gridMET data component
+======================
 
-*pymt_gridmet*
-==============
-
-*pymt_gridmet* is a `Python Modeling Toolkit`_ (*pymt*) component
+The gridMET data component, *pymt_gridmet*,
+is a `Python Modeling Toolkit`_ (*pymt*) library
 for fetching and caching daily `gridMET`_ meteorological data.
 Variables include:
 
@@ -31,8 +26,8 @@ Install the `pymt` and `pymt_gridmet` packages in a new environment with:
 
 .. code::
 
-  conda create -n pymt -c conda-forge python=3 pymt pymt_gridmet
-  conda activate pymt
+  $ conda create -n pymt -c conda-forge python=3 pymt pymt_gridmet
+  $ conda activate pymt
 
 *conda* automatically resolves and installs any required dependencies.
 
@@ -42,7 +37,7 @@ Use
 
 The *pymt_gridmet* data component is designed to access daily gridMET data,
 with the user providing the start and end dates of the desired data record.
-The dates can be provided through a configuration file,
+The dates can be provided through a configuration file
 or specified through parameters.
 
 With a configuration file
