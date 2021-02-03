@@ -8,12 +8,11 @@ sphinx:
 formats:
   - htmlzip
 
+conda:
+  environment: docs/environment.yml
+
 python:
-  version: 3.8
   install:
-    - requirements: requirements-docs.txt
-    - requirements: requirements-library.txt
-    - requirements: requirements.txt
     - method: pip
       path: .
   system_packages: false
